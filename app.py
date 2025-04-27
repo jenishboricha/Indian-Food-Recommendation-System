@@ -223,7 +223,7 @@ class IndianFoodRecommender:
 st.title("Indian Food Recommender System 🍛")
 st.write("Get personalized food recommendations based on your favorite Indian dishes!")
 
-csv_file_path = "/home/jenish/ML/ml_mini_project/Indian Food Recommendation/indian_food_dataset.csv" 
+csv_file_path = "indian_food_dataset.csv" 
 
 try:
     recommender = IndianFoodRecommender(csv_file_path)
